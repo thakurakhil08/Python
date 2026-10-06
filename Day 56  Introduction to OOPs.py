@@ -17,7 +17,7 @@ profit3 = 2000
 ad3 = 1000
 
 RailwayForm   ---> Class [blueprint]
-akhil  ---> akhil ki info wala form ---> Object [entity]
-shahbaz  ---> shahbaz ki info wala form ---> Object [entity]
-golu  ---> golu ki info wala form ---> Object [entity]
+akhil  --> akhil ki info wala form --> Object [entity]
+shahbaz  --> shahbaz ki info wala form --> Object [entity]
+golu  --> golu ki info wala form --> Object [entity]
 # golu.changename("Navya")
