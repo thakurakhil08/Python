@@ -30,13 +30,11 @@ def checkwin(user, computer):
         return "Computer Wins"
 
 
-# User choice
 user = int(input("Enter 1 for Snake, 0 for Water, 2 for Gun: "))
 
-# Computer choice
 computer = random.choice([0, 1, 2])
 
-# Result
+
 result = checkwin(user, computer)
 
 print("You chose:", user)
